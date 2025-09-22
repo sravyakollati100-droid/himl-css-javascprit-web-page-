@@ -1,0 +1,42 @@
+
+
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact / College Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <form id="contactForm" class="card" novalidate>
+      <h1>Student Info</h1>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+
+      <label for="college">College Name</label>
+      <input type="text" id="college" name="college" placeholder="Your College" required />
+
+      <div class="actions">
+        <button type="submit">Submit</button>
+      </div>
+
+      <p id="message" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
